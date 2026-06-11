@@ -76,7 +76,7 @@ python3 -m http.server 8000   # then open http://localhost:8000
 node scripts/make-icons.mjs   # regenerate PNG icons
 ```
 
-Deployment is automatic: every push runs `.github/workflows/deploy.yml`, which publishes the repo root to GitHub Pages. If the first run fails with a Pages permission error, enable it once in **Repo Settings → Pages → Source: GitHub Actions**.
+Deployment is automatic: GitHub Pages is configured to publish the `main` branch (root folder), so every push to `main` goes live at https://majic81.github.io/audify/ within a minute or two.
 
 ## 🗺 Ideas for later
 
