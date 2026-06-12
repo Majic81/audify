@@ -1,7 +1,7 @@
 /* Cache-first service worker: the app shell works offline; Gemini API calls
  * always go to the network. Bump CACHE to ship updates. */
 
-const CACHE = 'audify-v1';
+const CACHE = 'audify-v2';
 const SHELL = [
   './',
   './index.html',

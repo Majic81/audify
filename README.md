@@ -40,6 +40,8 @@ Needed only for the **"Add page photos"** OCR feature and the **Gemini AI voice*
 
 The key is stored only on your device (localStorage) and calls go directly from your phone to Google — there is no Audify server.
 
+> **Use a free-tier key with no billing attached.** When you create a key in AI Studio as above, it's free-tier by default and **cannot generate charges** — if you hit the daily limit, calls simply return a "quota exceeded" error. Avoid pasting in a key from a Google Cloud project that has a credit card / paid billing enabled. If a key ever leaks, the worst case is someone using up your free daily quota; you can delete and regenerate it in one click at [aistudio.google.com](https://aistudio.google.com/app/apikey).
+
 > Note: your **Gemini Pro subscription is not needed** — the API free tier is separate and free for everyone (Flash models, roughly 10–15 requests/minute and ~1,500/day, plenty for reading). Heads-up: Google may use free-tier prompts to improve its models, so don't OCR confidential documents.
 
 ## 📖 How to use
